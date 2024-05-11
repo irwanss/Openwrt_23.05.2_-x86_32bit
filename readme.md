@@ -1,4 +1,4 @@
-make image PROFILE="generic" PACKAGES="'\'
+make image PROFILE="generic" PACKAGES="\
 -dnsmasq cgi-io libiwinfo libiwinfo-data libiwinfo-lua liblua liblucihttp liblucihttp-lua adb \
 libubus-lua lua luci luci-app-firewall luci-app-opkg luci-base luci-lib-base \
 luci-lib-ip luci-lib-jsonc luci-lib-nixio luci-mod-admin-full luci-mod-network php8 \
